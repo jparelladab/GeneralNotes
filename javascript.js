@@ -18,9 +18,9 @@ var myButton = {
   boundClick(); // bound, 'this' is myButton
 //   Which prints out:
   
-  OK clicked
-  undefined clicked
-  OK clicked
+//   OK clicked
+//   undefined clicked
+//   OK clicked
 //   You can also add extra parameters after the 1st (this) parameter and bind will pass in those values to the original function. Any additional parameters you later pass to the bound function will be passed in after the bound parameters:
   
   // Example showing binding some parameters
